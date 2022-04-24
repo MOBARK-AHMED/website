@@ -1,0 +1,129 @@
+/*css code for header*/
+#head {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  overflow: hidden;
+  background:linear-gradient(to right,#c33764 , #1d2671);
+  width: 100%;
+}
+
+.list {
+  float:left;
+}
+
+.list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.list a:hover {
+  background-color: #111111;
+}
+/*css code for table*/
+#cap{
+  color:white;
+  text-align:center;
+  font-size:30px;
+  border:2px solid black;padding: 10px;
+  margin-top: 10px;margin-bottom: 10px;
+  background:linear-gradient(to right,#c33764 , #1d2671);border-radius: 8px;
+  
+}
+table{
+ font-family: arial, sans-serif;
+ border-radius:6px;
+ border-color:rgb(11, 9, 14);
+ border-collapse: collapse;
+  width: 100%;
+}
+td, th{text-align:left;
+  padding:8px;
+  border:2px solid #1d0c0c;
+}
+tr:nth-child(even){
+  background:#fff9f9dc;
+}
+tr:nth-child(odd){
+  background:linear-gradient(to right,#c33764 , #1d2671);color: white;
+}
+tr:hover {
+  background:#a0a0a0bb;
+}
+/*css code for form*/
+#mo{
+  color:white;
+  text-align:center;
+  font-size:30px;
+  border:2px solid black;
+  padding: 10px;
+  background:linear-gradient(to right,#c33764 , #1d2671);
+  border-radius: 8px;}
+#field{border-radius: 8px;
+  background:linear-gradient(to right,#c33764 , #1d2671);
+  
+/*;#cc2b5e, #753a88*/
+}
+lable{
+  font-size:20px;color:white;
+}
+#leg{
+  color: rgb(4, 1, 12);font-size: 20px;margin-bottom: 10px;
+}
+input{
+  border-radius:8px;
+  width:98%;
+  padding: 10px;
+margin-bottom: 10px;
+}
+input:hover{
+  background-color:#a2a3a5;
+}
+#button{
+  margin-top:10px;
+  width:20%;
+  color:black;
+  font-size: 15px;
+  padding: 10px;
+border-radius:8px;
+}
+#button:hover{
+  background-color:	#b3c6ff;
+}
+/*css code for footer*/
+#foot {
+  list-style-type: none;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 8px 8px 0px 0px;
+  background:linear-gradient(to right,#c33764 , #1d2671);
+}
+
+#find {
+  float:left;
+  margin-right: 10px;
+}
+#follow {
+  float: right;
+  margin-left: 100px;
+}
+
+.fo{
+  color: #a2a3a5;
+}
+.add{
+  font-size: 20px;
+color: white;
+}
+#copy{text-align: center;
+  color: white;
+
+  margin-top: -16px;
+  padding: 12px;
+  border-radius: 0px 0px 8px 8px;
+  background:linear-gradient(to right,#c33764 , #1d2671);
+  }
